@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav_bar{
+	height: 80px;
+	width: 100%;
+	background: linear-gradient(#E27D60, #E8A87C);
+	border-bottom: 1px solid #85DCBA;
+}
+.fb_logo{
+	position: absolute;
+	height: 63px;
+	width: 190px;
+	left: 13%;
+	padding-top: 15px;
+}	
+.login_form{
+    display: flex;
+    position: absolute;
+    font-family: Aladin;
+    left: 58%;
+    top: 15px;
+}
+.login_form .email,
+.login_form .password{
+    padding-left: 10px;
+	font-size: 20px;
+}
+.login_form .email .font1,
+.login_form .password .font2{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.login_form .email input,
+.login_form .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid white;
+    outline: none;
+	background: white;
+}
+.login_form button{
+    height: 24px;
+    width: 50px;
+	font-family: Aladin;
+	font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #85DCBA;
+    border: 1px solid #E27D60;
+}
+.login_form button:hover{
+    background: #C38D9E;
+}
+
+
+section{
+    height: 650px;
+    width: 100%;
+    top: 80px;
+    background: #85DCBA;
+	font-family: Aladin;
+	font-size: 20px;
+	color: #C38D9E;
+}
+.logo_body{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.logo_body .text_2{
+    font-family: Aladin;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.logo_body .text_1{
+    color: #C38D9E;
+    margin-left: 75px;   
+    margin-bottom: 5px;
+}
+.signup_body{
+    font-family: Aladin;
+    position: absolute;
+    left: 57%;
+}
+.icon{
+	height: 80px;
+	vertical-align: middle;
+}
+.crt_acc{
+	vertical-align: middle;
+	font-size: 40px;
+}
+.signup_body .free_hint{
+    margin: -20px 5px;
+    font-size: 20px;
+}
+.signup_body .signup_form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.first_name{
+	font-family: Aladin;
+}
+.signup_body .signup_form .last_name{
+    margin-left: 15px;
+	font-family: Aladin;
+}
+.signup_body .signup_form .email,
+.signup_body .signup_form .pass,
+.signup_body .signup_form .pass2{
+    margin-top: 20px;
+    width: 410px;
+	font-family: Aladin;
+}
+.signup_body .signup_form .b_day{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+	vertical-align: middle;
+}
+.birth{
+	height: 40px;
+	vertical-align: middle;
+}
+.signup_body .signup_form .birth_date{
+    margin-top: 5px;
+}
+.signup_body .signup_form .month,
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    height: 28px;
+	font-family: Aladin;
+}
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    margin-left: -5px;
+}
+.signup_body .signup_form .birth_hint{
+    font-size: 12px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.signup_body .signup_form a{
+    text-decoration: none;
+}
+.signup_body .signup_form a:hover{
+    text-decoration: underline;
+}
+.signup_body .signup_form input[type="radio"]{
+    height: 15px;
+    margin-left: -80px;
+    margin-top: 10px;
+}
+.signup_body .signup_form input[value="female"]{
+    margin-left: -90px;
+}
+.gender{
+	margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.signup_body .signup_form .gender_m{
+    margin-left: 35px;
+    margin-top: -25px;
+}
+.signup_body .signup_form .gender_f{
+    margin-left: 140px;
+	margin-top: -24px;
+}
+.signup_body .signup_form .gender_c{
+    margin-left: 250px;
+	margin-top: -25px;
+}
+.signup_body .signup_form .agreement{
+    margin-top: 15px;
+    font-size: 14px;
+    width: 350px;
+    color: grey;
+}
+.signup_body .signup_form .signup{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+	font-family: Aladin;
+    font-weight: 600;
+    border: 1px solid #016117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: #E27D60;
+}
+.signup_body .signup_form .signup:hover{
+    background: linear-gradient(#41B3A3, #85DCBA);
+}
